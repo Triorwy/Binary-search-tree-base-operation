@@ -31,7 +31,7 @@ void Test()
 
 	BSTreeInOrder(tree);
 	printf("\n");
-//测试用例
+/////////////测试用例
 	BSTreeRemove(&tree, 0);
 	BSTreeRemove(&tree, 1); 
 	BSTreeRemove(&tree, 2); 
@@ -49,8 +49,7 @@ void Test()
 
 int main()
 {
-	//Test();
-	TestBSTree();
+	Test();
 	system("pause");
 	return 0;
 }
